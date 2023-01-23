@@ -33,7 +33,7 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
-google_analytics: G-86MF0006K1
+# google_analytics: G-86MF0006K1
 
 
 # Exclude from processing.
