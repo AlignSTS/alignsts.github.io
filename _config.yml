@@ -33,6 +33,8 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
+google_analytics: G-86MF0006K1
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

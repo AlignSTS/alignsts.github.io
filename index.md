@@ -1,5 +1,15 @@
 # AlignSTS: Speech-to-Singing Conversion via Cross-Modal Alignment
 
+<!-- Google tag (gtag.js)
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-86MF0006K1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-86MF0006K1');
+</script> -->
+
 ## Abstract
 
 The speech-to-singing (STS) voice conversion task aims to generate singing samples corresponding to speech recordings while facing a major challenge: the alignment between the target (singing) pitch contour and the source (speech) content is difficult to learn in a text-free situation. This paper proposes AlignSTS, an STS model based on explicit cross-modal alignment, we 1) adopt a novel rhythm adaptor to predict the target rhythm representation to bridge the modality gap between content and pitch, where the rhythm representation is disentangled in a simple yet effective way and is quantized into a discrete space; and 2) leverage the cross-modal aligner to re-align the content features explicitly according to the predicted rhythm and conduct a cross-modal fusion for re-synthesis. Experimental results show that AlignSTS achieves superior performance in terms of both objective and subjective metrics. 
